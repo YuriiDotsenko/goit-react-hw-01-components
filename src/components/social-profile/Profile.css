@@ -1,0 +1,43 @@
+.Profile__container {
+  text-align: center;
+  padding: 40px;
+  width: 500px;
+  background-color: rgb(235, 220, 220);
+  margin-left: auto;
+  margin-right: auto;
+  border-style: groove;
+  box-shadow: 8px 8px 5px -5px #4e4a52;
+  border-radius: 5px;
+}
+
+.Profile__photo {
+  background-color: antiquewhite;
+  border-radius: 50%;
+}
+
+.Profile__name__title {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.Profile__title {
+  color: rgb(5, 132, 252);
+}
+
+.Profile__state {
+  display: flex;
+  list-style: none;
+  padding-top: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  color: rgb(5, 132, 252);
+}
+
+.Profile__color {
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+}

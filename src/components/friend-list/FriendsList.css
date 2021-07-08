@@ -1,0 +1,53 @@
+.friend_list {
+  width: 300px;
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.friend_item {
+  display: flex;
+  align-items: center;
+  padding: 5px 15px;
+  background-color: #fff;
+  box-shadow: 8px 8px 5px -5px #4e4a52;
+  border-radius: 5px;
+  border-style: groove;
+
+  transition: transform 200ms ease;
+}
+
+.friend_item:hover,
+.friend_item:focus {
+  transform: scale(1.1);
+}
+
+.friend_item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  background-color: darkgreen;
+  border-radius: 10px;
+}
+
+.friend_status {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.friends_name {
+  margin-left: 15px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #4e4a52;
+  font-size: 20px;
+}
